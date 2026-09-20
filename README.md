@@ -39,7 +39,7 @@ Each CSV contains `x` (feature filename), `y` (0: normal, 1: tumor), and `data_t
 
 ## Training
 
-The model is implemented in `core/model.py`. Before running, replace the remaining `from core.model_v2 import CDG` line in `train.py` with:
+The model is implemented in `core/model.py`:
 
 ```python
 from core.model import CDG
