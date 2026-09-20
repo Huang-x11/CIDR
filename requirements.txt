@@ -7,25 +7,12 @@ torch==1.13.1
 pytorch-lightning==2.0.1.post0
 torchmetrics==1.5.2
 tensorboardX==2.6.1
-
-# Numerical computing and evaluation.
 numpy==1.24.4
 scipy==1.15.1
 pandas==2.2.3
 scikit-learn==1.6.1
-
-# TransMIL is imported even when another backbone is selected.
 nystrom-attention==0.0.11
 einops==0.6.1
-
-# Imported unconditionally by core/data.py, including currently unused imports.
-albumentations==2.0.6
-opencv-python-headless==4.10.0.84
-scikit-image==0.25.0
-csbdeep==0.8.1
-
-# The pinned Lightning release imports pkg_resources from setuptools.
 setuptools==80.9.0
 
-# Optional notebook UI / log viewer (not needed for training):
-# Install jupyterlab and/or tensorboard separately if required.
+
