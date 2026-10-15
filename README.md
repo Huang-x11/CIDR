@@ -1,7 +1,7 @@
 # CIDR
 
 **Causality-Inspired Disentangled Representation for Robust Whole Slide Image Classification**
-
+![Figure 2](figure2.png)
 ## Overview
 
 CIDR is a representation-learning module inserted between a frozen pathology foundation model (PFM) and an existing multiple instance learning (MIL) model. It separates patch features into a label-causative factor **S** and a residual factor **Z**. Guided by a Causal Information Bottleneck objective, feature reconstruction preserves information, slide-level supervision makes S discriminative, and cross-slide HSIC regularization reduces dependence between the two factors. Only S is passed to the MIL classifier.
